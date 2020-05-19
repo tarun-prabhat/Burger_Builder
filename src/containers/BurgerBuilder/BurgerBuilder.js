@@ -1,6 +1,6 @@
 import React,{ Component } from 'react';
 import Auxiliary from '../../hoc/Auxiliary';
-import Burger from '..//../components/Burger/Burger';
+import Burger from '../../components/Burger/Burger';
 import BuildControls from '../../components/Burger/BuildControls/BuildControls';
 import Modal from '../../components/UI/Modal/Modal'
 import OrderSummary from '../../components/Burger/OrderSummary/OrderSummary';
@@ -15,9 +15,7 @@ class BurgerBuilder extends Component{
     // constructor(props){
     //     super(props);
     //     this.state = {...}
-    // }
-
-    
+    // }    
     
     state={
         ingredients:{
